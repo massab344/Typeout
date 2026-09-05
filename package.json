@@ -1,0 +1,45 @@
+{
+  "name": "typeout",
+  "displayName": "Typeout",
+  "description": "Replays file content character by character to create realistic undo history",
+  "version": "1.0.0",
+  "publisher": "massab344",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages",
+    "Snippets"
+  ],
+  "keywords": [
+    "typing",
+    "replay",
+    "undo",
+    "history",
+    "demo",
+    "typeout"
+  ],
+  "icon": "icon.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/massab344/typeout.git"
+  },
+  "bugs": {
+    "url": "https://github.com/massab344/typeout/issues"
+  },
+  "homepage": "https://github.com/massab344/typeout#readme",
+  "activationEvents": [
+    "onCommand:typeout.run"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "typeout.run",
+        "title": "Typeout: Type Current File Letter by Letter"
+      }
+    ]
+  }
+}
