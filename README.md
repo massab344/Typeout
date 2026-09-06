@@ -9,33 +9,21 @@
 </p>
 
 <p align="center">
-  <a href="vscode:extension/massab344.typeoutt">
-    <img src="https://img.shields.io/badge/VS%20Code-Marketplace-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code Marketplace" />
-  </a>
+  <a href="vscode:extension/massab344.typeout"><img src="https://img.shields.io/badge/Open_in_VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white" alt="Open directly in VS Code"></a>
   &nbsp;
-  <a href="https://open-vsx.org/extension/massab344/typeout">
-    <img src="https://img.shields.io/badge/Open%20VSX-Registry-7952B3?style=for-the-badge&logo=eclipseche&logoColor=white" alt="Open VSX" />
-  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=massab344.typeout"><img src="https://img.shields.io/badge/VS_Code_Marketplace-007ACC?style=flat&logo=visualstudiocode&logoColor=white" alt="VS Code Marketplace"></a>
   &nbsp;
-  <a href="vscode:extension/massab344.typeout">
-    <img src="https://img.shields.io/badge/1--Click%20Install-In%20Editor-2ea44f?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Install in Editor" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/massab344/Typeout">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
+  <a href="https://open-vsx.org/extension/massab344/typeout"><img src="https://img.shields.io/badge/Open_VSX-7952B3?style=flat&logo=eclipseche&logoColor=white" alt="Open VSX"></a>
 </p>
 
 ---
 
-## ⚡ Direct Installation Links
+## ⚡ Direct Links
 
-You can install or view Typeout across any editor or registry:
-
-- 🚀 **[Open & Install Directly in Editor (VS Code / Antigravity)](vscode:extension/massab344.typeout)**
+- 🚀 **[Click here to open directly inside VS Code / Antigravity IDE](vscode:extension/massab344.typeout)**
 - 🛒 **[View on VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=massab344.typeout)**
 - 🟣 **[View on Open VSX Registry](https://open-vsx.org/extension/massab344/typeout)**
-- 📦 **[Download VSIX from GitHub Releases](https://github.com/massab344/Typeout/releases)**
+- 📦 **[Download VSIX package from GitHub Releases](https://github.com/massab344/Typeout/releases)**
 
 ---
 
