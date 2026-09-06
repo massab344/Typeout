@@ -3,11 +3,11 @@ const fs = require('fs');
 const path = require('path');
 
 function activate(context) {
-    // Persistent, clear status bar button
-    const statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
+    // High priority status bar button so it appears prominently on the right
+    const statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 1000);
     statusBarItem.command = 'typeout.run';
     statusBarItem.text = '$(keyboard) Typeout';
-    statusBarItem.tooltip = 'Click to replay current file character by character';
+    statusBarItem.tooltip = 'Typeout: Replay current file character by character';
     statusBarItem.show();
     context.subscriptions.push(statusBarItem);
 
