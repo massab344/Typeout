@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=massab344.typeout"><img src="https://img.shields.io/badge/VS_Code_Marketplace-007ACC?style=flat&logo=visualstudiocode&logoColor=white" alt="VS Code Marketplace"></a>
-  &nbsp;
-  <a href="https://open-vsx.org/extension/massab344/typeout"><img src="https://img.shields.io/badge/Open_VSX-7952B3?style=flat&logo=eclipseche&logoColor=white" alt="Open VSX"></a>
-</p>
-
 # Typeout
 
 <p align="center">
@@ -11,7 +5,17 @@
 </p>
 
 <p align="center">
-  <b>Replay file content character by character to create realistic undo history in VS Code, Antigravity IDE, and Cursor.</b>
+  <b>Simulate realistic typing with genuine undo history for code demos and screencasts.</b>
+</p>
+
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=massab344.typeout">
+    <img src="https://img.shields.io/badge/VS_Code_Marketplace-007ACC?style=flat&logo=visualstudiocode&logoColor=white" alt="VS Code Marketplace">
+  </a>
+  &nbsp;
+  <a href="https://open-vsx.org/extension/massab344/typeout">
+    <img src="https://img.shields.io/badge/Open_VSX-7952B3?style=flat&logo=eclipseche&logoColor=white" alt="Open VSX">
+  </a>
 </p>
 
 ---
