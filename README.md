@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=massab344.typeout">
+  <a href="vscode:extension/massab344.typeoutt">
     <img src="https://img.shields.io/badge/VS%20Code-Marketplace-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code Marketplace" />
   </a>
   &nbsp;
