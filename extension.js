@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 function activate(context) {
-    // High priority status bar button so it appears prominently on the right
+    // status bar button
     const statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 1000);
     statusBarItem.command = 'typeout.run';
     statusBarItem.text = '$(keyboard) Typeout';
@@ -27,24 +27,19 @@ function activate(context) {
         let text = '';
         let sourceDescription = '';
 
-        // Priority 1: If a backup file exists, use it
         if (fs.existsSync(backupPath)) {
             text = fs.readFileSync(backupPath, 'utf8');
             sourceDescription = `${base}_backup${ext}`;
         } else {
-            // Priority 2: Use the current editor text directly!
             const currentDocText = editor.document.getText();
             if (currentDocText.trim().length > 0) {
                 text = currentDocText;
                 sourceDescription = `current file (${base}${ext})`;
-                // Automatically save safety backup so user never loses code
                 try {
                     fs.writeFileSync(backupPath, currentDocText, 'utf8');
                 } catch (e) {
-                    // ignore if read-only
                 }
             } else {
-                // Priority 3: Current file is empty & no backup exists -> prompt user to pick source file
                 const choice = await vscode.window.showInformationMessage(
                     `"${base}${ext}" is empty and no backup file was found. Select a file to type from?`,
                     'Select File...', 'Cancel'
@@ -63,7 +58,6 @@ function activate(context) {
                 sourceDescription = path.basename(chosenPath);
             }
         }
-
         // normalize line breaks so windows crlf doesnt duplicate newlines
         text = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
         const total = text.length;
