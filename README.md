@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=massab344.typeout"><img src="https://img.shields.io/badge/VS_Code_Marketplace-007ACC?style=flat&logo=visualstudiocode&logoColor=white" alt="VS Code Marketplace"></a>
+  &nbsp;
+  <a href="https://open-vsx.org/extension/massab344/typeout"><img src="https://img.shields.io/badge/Open_VSX-7952B3?style=flat&logo=eclipseche&logoColor=white" alt="Open VSX"></a>
+</p>
+
 # Typeout
 
 <p align="center">
@@ -7,23 +13,6 @@
 <p align="center">
   <b>Replay file content character by character to create realistic undo history in VS Code, Antigravity IDE, and Cursor.</b>
 </p>
-
-<p align="center">
-  <a href="vscode:extension/massab344.typeout"><img src="https://img.shields.io/badge/Open_in_VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white" alt="Open directly in VS Code"></a>
-  &nbsp;
-  <a href="https://marketplace.visualstudio.com/items?itemName=massab344.typeout"><img src="https://img.shields.io/badge/VS_Code_Marketplace-007ACC?style=flat&logo=visualstudiocode&logoColor=white" alt="VS Code Marketplace"></a>
-  &nbsp;
-  <a href="https://open-vsx.org/extension/massab344/typeout"><img src="https://img.shields.io/badge/Open_VSX-7952B3?style=flat&logo=eclipseche&logoColor=white" alt="Open VSX"></a>
-</p>
-
----
-
-## ⚡ Direct Links
-
-- 🚀 **[Click here to open directly inside VS Code / Antigravity IDE](vscode:extension/massab344.typeout)**
-- 🛒 **[View on VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=massab344.typeout)**
-- 🟣 **[View on Open VSX Registry](https://open-vsx.org/extension/massab344/typeout)**
-- 📦 **[Download VSIX package from GitHub Releases](https://github.com/massab344/Typeout/releases)**
 
 ---
 
@@ -51,6 +40,14 @@ When presenting code demos, submitting assignments, or recording screencasts, ha
 2. Click the **"⌨️ Typeout"** button on the bottom status bar, OR click the **`⌨️`** button in the top-right editor toolbar.
 3. Click **Start** in the confirmation dialog.
 4. Watch your code type itself out smoothly! Once done, press `Ctrl+Z` to step backward through the typing history letter by letter.
+
+---
+
+## Marketplaces & Downloads
+
+- 🛒 **VS Code Marketplace**: [massab344.typeout](https://marketplace.visualstudio.com/items?itemName=massab344.typeout)
+- 🟣 **Open VSX Registry**: [massab344/typeout](https://open-vsx.org/extension/massab344/typeout)
+- 📦 **GitHub Releases (.VSIX)**: [Typeout Releases](https://github.com/massab344/Typeout/releases)
 
 ---
 
