@@ -12,14 +12,25 @@
     "Programming Languages",
     "Snippets"
   ],
-  "keywords": [
-    "typing",
-    "replay",
-    "undo",
-    "history",
-    "demo",
-    "typeout"
-  ],
+ "keywords": [
+  "typewriter",
+  "typing",
+  "auto type",
+  "autotype",
+  "replay",
+  "undo",
+  "history",
+  "screencast",
+  "demo",
+  "presentation",
+  "simulator",
+  "keystroke"
+],
+"categories": [
+  "Snippets",
+  "Education",
+  "Other"
+],
   "icon": "icon.png",
   "license": "MIT",
   "repository": {
