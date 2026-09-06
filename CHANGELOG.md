@@ -1,13 +1,12 @@
 # Change Log
 
-All notable changes to the "Typeout" extension will be documented in this file.
+## [1.1.0] - 2026-09-06
+### Added
+- Prominent `$(keyboard) Typeout` status bar button for instant 1-click execution.
+- Editor title bar `$(play)` button in top-right tab toolbar.
+- Right-click context menu entry: `Typeout: Type File Character by Character`.
+- Smart fallback: Automatically types from current file if no `_backup` file exists, with automatic safety backup creation.
+- Open file picker dialog when replaying into an empty file.
 
 ## [1.0.0] - 2026-09-05
-
-### Added
-- Initial public release of Typeout.
-- Character-by-character code replay from `<basename>_backup.<ext>`.
-- Full undo stack preservation for realistic un-typing with `Ctrl+Z`.
-- Viewport tracking and cursor following during typing.
-- Real-time progress notifications with cancellation support.
-- Cross-platform CRLF/LF line ending normalization.
+- Initial release with character-by-character typing engine, progress bar, and viewport tracking.

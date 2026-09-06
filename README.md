@@ -14,45 +14,24 @@
 
 When presenting code demos, submitting assignments, or recording screencasts, having realistic editor typing history is essential. Manually copying and pasting drops an entire block into the editor as a single event, leaving zero typing history. 
 
-**Typeout** reads a reference backup file and types it into your active editor character by character. Every keystroke is its own independent undo stop, so pressing `Ctrl+Z` (or `Cmd+Z`) smoothly un-types your code in reverse order, exactly as if it was written by hand.
+**Typeout** replays your code character by character. Every keystroke is its own independent undo stop, so pressing `Ctrl+Z` (or `Cmd+Z`) smoothly un-types your code in reverse order, exactly as if it was written by hand.
 
 ---
 
-## Features
+## What's New in v1.1.0
 
-- **Character-by-Character Insertion:** Each letter, tab, and newline is inserted sequentially with its own undo stop.
-- **Zero Drift & Clean Formatting:** Automatically normalizes line endings (`\r\n` / `\n`) to prevent duplicate newlines and unwanted blank lines.
-- **Smooth Viewport Follow:** The editor cursor and viewport automatically follow the typing head in real time.
-- **Progress Tracking & Cancellation:** Shows a progress bar with percentage and character count, with instant cancellation support.
-- **No External Dependencies:** Uses pure VS Code extension APIs—fast, lightweight, and reliable.
+- 🖱️ **Instant 1-Click Buttons:** No need to remember `Ctrl+Shift+P`! Click the **"⌨️ Typeout"** button in the bottom status bar, or the **"▶"** button in the top-right of your editor tab.
+- 🛡️ **Zero Backup Compulsion:** No need to manually create `_backup` files! Open any file with code, press Typeout, and it automatically saves a safety copy and replays it seamlessly.
+- 📁 **File Picker Support:** If starting from a blank file, Typeout lets you select any source file to type out into your active editor.
 
 ---
 
 ## How to Use
 
-1. Prepare your source file (e.g. `main.cpp`).
-2. Create a backup file in the same directory with `_backup` appended before the extension:
-   ```
-   my-project/
-   ├── main.cpp
-   └── main_backup.cpp
-   ```
-3. Open `main.cpp` in the editor.
-4. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) to open the Command Palette.
-5. Search and run:
-   ```
-   Typeout: Type Current File Letter by Letter
-   ```
-6. Confirm the character count dialog and click **Start**.
-7. Watch your code type itself out smoothly! Once done, you can press `Ctrl+Z` to step backward through the typing history letter by letter.
-
----
-
-## Commands
-
-| Command | Title | Description |
-|---|---|---|
-| `typeout.run` | **Typeout: Type Current File Letter by Letter** | Types content from `<filename>_backup.<ext>` into `<filename>.<ext>` |
+1. Open your code file in the editor (e.g. `main.cpp`).
+2. Click the **"⌨️ Typeout"** button on the bottom status bar, OR click the **"▶"** button at the top-right of the editor.
+3. Click **Start** in the confirmation dialog.
+4. Watch your code type itself out smoothly! Once done, you can press `Ctrl+Z` to step backward through the typing history letter by letter.
 
 ---
 
@@ -64,4 +43,4 @@ When presenting code demos, submitting assignments, or recording screencasts, ha
 
 ## License
 
-MIT License. Feel free to use, modify, and distribute.
+MIT License.
